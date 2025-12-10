@@ -2,7 +2,4 @@
   publish = "."
   command = "echo 'No build step needed'"
 
-[[redirects]]
-  from = "/"
-  to = "/index-particles.html"
-  status = 200
+
