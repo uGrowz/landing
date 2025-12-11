@@ -15,11 +15,14 @@ import { DemoSection } from './components/DemoSection';
 import { FAQSection } from './components/FAQSection';
 import { CTABanner } from './components/CTABanner';
 import { Footer } from './components/Footer';
+import { SEO } from './components/SEO';
 import logo from 'figma:asset/c628eacde29ae738913b43a07545405a65421cd3.png';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
+      <SEO />
+      <div className="min-h-screen bg-white">
       {/* ========== SECTION 1: HERO SECTION ========== */}
       <div className="relative overflow-hidden">
         <AnimatedBackground />
@@ -154,5 +157,6 @@ export default function App() {
       {/* ========== SECTION 12: FOOTER ========== */}
       <Footer />
     </div>
+    </>
   );
 }
