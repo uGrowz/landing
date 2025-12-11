@@ -81,7 +81,7 @@ export function CTABanner() {
 
           {/* Headline */}
           <h2 className="text-4xl md:text-5xl lg:text-6xl text-white mb-6 leading-tight">
-            Start Growing with UGROWZ Today
+            Start Growing with uGrowz Today
           </h2>
 
           {/* Subheadline */}

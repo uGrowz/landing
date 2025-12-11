@@ -6,7 +6,7 @@ const plans = [
   {
     name: 'Free Tier',
     price: { monthly: 0, yearly: 0 },
-    description: 'Perfect for trying out UGROWZ',
+    description: 'Perfect for trying out uGrowz',
     features: [
       '100 enrichments/month',
       'Basic integrations',

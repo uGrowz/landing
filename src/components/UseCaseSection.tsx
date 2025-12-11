@@ -44,7 +44,7 @@ export function UseCaseSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl mb-4" style={{ color: 'var(--brand-secondary)' }}>
-            What You Can Do With UGROWZ
+            What You Can Do With uGrowz
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Unlock powerful capabilities to accelerate your sales pipeline
@@ -89,17 +89,8 @@ export function UseCaseSection() {
                   {useCase.description}
                 </p>
 
-                {/* Glowing border on hover */}
-                <motion.div
-                  className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"
-                  style={{
-                    background: `linear-gradient(135deg, var(--brand-primary), var(--brand-secondary))`,
-                    filter: 'blur(15px)',
-                  }}
-                  initial={false}
-                  animate={{ opacity: 0 }}
-                  whileHover={{ opacity: 0.3 }}
-                />
+                {/* Hover border effect */}
+                <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-brand-primary/30 transition-colors duration-300" />
 
                 {/* Top accent border */}
                 <div

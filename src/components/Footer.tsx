@@ -61,7 +61,7 @@ export function Footer() {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <img src={logo} alt="UGROWZ" className="h-8 mb-4" />
+              <img src={logo} alt="uGrowz" className="h-8 mb-4" />
               <p className="text-sm text-gray-600 leading-relaxed mb-4">
                 AI-powered sales enrichment for modern teams
               </p>
@@ -146,7 +146,7 @@ export function Footer() {
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          <p>© {new Date().getFullYear()} UGROWZ. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} uGrowz. All rights reserved.</p>
           
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-gray-900 transition-colors duration-200">

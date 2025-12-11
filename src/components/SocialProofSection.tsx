@@ -4,7 +4,7 @@ import { Quote, ArrowRight, TrendingUp, Users, DollarSign } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "UGROWZ transformed our sales process. We're now enriching 10x more leads with better accuracy than ever before.",
+    quote: "uGrowz transformed our sales process. We're now enriching 10x more leads with better accuracy than ever before.",
     author: 'Sarah Chen',
     role: 'VP of Sales',
     company: 'TechVentures',
@@ -73,7 +73,7 @@ export function SocialProofSection() {
             Loved by Sales Teams Everywhere
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of companies growing faster with UGROWZ
+            Join thousands of companies growing faster with uGrowz
           </p>
         </motion.div>
 
@@ -174,7 +174,7 @@ export function SocialProofSection() {
 
         {/* Company Logos */}
         <motion.div
-          className="border-t border-gray-200 pt-12"
+          className="border-t border-gray-200 pt-12 hidden"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}

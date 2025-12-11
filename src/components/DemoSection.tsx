@@ -17,10 +17,10 @@ export function DemoSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl mb-4" style={{ color: 'var(--brand-secondary)' }}>
-            See UGROWZ in Action
+            See uGrowz in Action
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Watch how top sales teams are using UGROWZ to 3x their pipeline
+            Watch how top sales teams are using uGrowz to 3x their pipeline
           </p>
         </motion.div>
 
@@ -164,7 +164,7 @@ export function DemoSection() {
           transition={{ delay: 0.5 }}
         >
           <h3 className="text-2xl mb-6" style={{ color: 'var(--brand-secondary)' }}>
-            See How UGROWZ Works
+            See How uGrowz Works
           </h3>
           <motion.button
             className="px-8 py-4 rounded-xl text-white shadow-lg"

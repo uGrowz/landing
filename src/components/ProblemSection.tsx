@@ -79,13 +79,8 @@ export function ProblemSection() {
                 {problem.description}
               </p>
 
-              {/* Hover gradient border */}
-              <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"
-                style={{
-                  background: 'linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-secondary) 100%)',
-                  filter: 'blur(20px)',
-                }}
-              />
+              {/* Hover border effect */}
+              <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-brand-primary/30 transition-colors duration-300" />
             </motion.div>
           ))}
         </div>

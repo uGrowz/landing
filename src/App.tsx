@@ -27,7 +27,7 @@ export default function App() {
         {/* Header */}
         <header className="relative z-20 px-6 py-6">
           <div className="max-w-7xl mx-auto">
-            <img src={logo} alt="UGROWZ" className="h-10" />
+            <img src={logo} alt="uGrowz" className="h-10" />
           </div>
         </header>
 

@@ -4,16 +4,16 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'How does UGROWZ ensure data accuracy?',
+    question: 'How does uGrowz ensure data accuracy?',
     answer: 'We use a combination of AI-powered verification, real-time data sources, and manual quality checks to maintain a 95% accuracy rate. All contact information is verified across multiple databases before being delivered to you.',
   },
   {
-    question: 'Can I integrate UGROWZ with my existing CRM?',
-    answer: 'Yes! UGROWZ integrates seamlessly with all major CRMs including Salesforce, HubSpot, Pipedrive, and 50+ other platforms. Our two-way sync ensures your data stays up-to-date across all tools.',
+    question: 'Can I integrate uGrowz with my existing CRM?',
+    answer: 'Yes! uGrowz integrates seamlessly with all major CRMs including Salesforce, HubSpot, Pipedrive, and 50+ other platforms. Our two-way sync ensures your data stays up-to-date across all tools.',
   },
   {
     question: 'What is included in the free tier?',
-    answer: 'The free tier includes 100 enrichments per month, basic integrations, email support, and access to our core enrichment features. It\'s perfect for trying out UGROWZ and small-scale projects.',
+    answer: 'The free tier includes 100 enrichments per month, basic integrations, email support, and access to our core enrichment features. It\'s perfect for trying out uGrowz and small-scale projects.',
   },
   {
     question: 'How quickly can I get started?',
@@ -24,8 +24,8 @@ const faqs = [
     answer: 'Yes! All paid plans come with a 14-day free trial with full access to features. No credit card required to start your trial.',
   },
   {
-    question: 'What makes UGROWZ different from competitors?',
-    answer: 'UGROWZ combines superior data accuracy (95%+), advanced AI automation, affordable pricing, and seamless integrations. Our no-code workflow builder and real-time verification set us apart.',
+    question: 'What makes uGrowz different from competitors?',
+    answer: 'uGrowz combines superior data accuracy (95%+), advanced AI automation, affordable pricing, and seamless integrations. Our no-code workflow builder and real-time verification set us apart.',
   },
   {
     question: 'Can I cancel my subscription anytime?',
@@ -49,7 +49,7 @@ const faqs = [
   },
   {
     question: 'Do you offer API access?',
-    answer: 'API access is available on the Pro plan, allowing you to integrate UGROWZ enrichment capabilities directly into your custom applications and workflows.',
+    answer: 'API access is available on the Pro plan, allowing you to integrate uGrowz enrichment capabilities directly into your custom applications and workflows.',
   },
 ];
 
@@ -70,7 +70,7 @@ export function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600">
-            Everything you need to know about UGROWZ
+            Everything you need to know about uGrowz
           </p>
         </motion.div>
 

@@ -39,7 +39,7 @@ export function SolutionSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl mb-4" style={{ color: 'var(--brand-secondary)' }}>
-            How UGROWZ Solves These Challenges
+            How uGrowz Solves These Challenges
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Intelligent automation meets verified data

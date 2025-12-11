@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Check, X } from 'lucide-react';
 
-const competitors = ['UGROWZ', 'Apollo', 'Clay', 'ZoomInfo'];
+const competitors = ['uGrowz', 'Apollo', 'Clay', 'ZoomInfo'];
 
 const features = [
   {
@@ -47,7 +47,7 @@ export function ComparisonTable() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl mb-4" style={{ color: 'var(--brand-secondary)' }}>
-            Why UGROWZ Outperforms Apollo, Clay & ZoomInfo
+            Why uGrowz Outperforms Apollo, Clay & ZoomInfo
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             See how we stack up against the competition
@@ -128,7 +128,7 @@ export function ComparisonTable() {
                         backgroundColor: colIndex === 0 ? 'rgba(104, 199, 33, 0.05)' : 'rgba(0, 0, 0, 0.02)',
                       }}
                     >
-                      {/* UGROWZ column glow */}
+                      {/* uGrowz column glow */}
                       {colIndex === 0 && (
                         <div
                           className="absolute inset-0 border-l-2 border-r-2 opacity-20 pointer-events-none"
